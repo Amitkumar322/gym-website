@@ -1,0 +1,150 @@
+.navbar-brand{
+    font-size: 40px;
+    font-style:italic;
+    font-family:verdana;
+    }
+    @media screen and (max-width:576px){
+        .navbar-brand{
+            font-size: 20px;
+            font-style:italic;
+            font-family:verdana;
+            }
+    }
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url(imges/3dimg.avif) ;
+    }
+    /* nav */
+        
+    .navbar-brand{
+        display:flex;
+        flex:1;  
+        
+    }
+    #navbarScroll ul li a {
+        margin:20px;
+        justify-content: center;
+        
+    }
+    #navbarScroll ul li a:hover{
+        color: #fbc531 ;
+        transition:1s ease;
+        border-bottom:2px dashed #fbc531;
+      
+    } 
+/* section1 */
+.cont1{
+  display: flex;
+  justify-content: center;
+
+}
+.p1{
+  color:#f2ff3f;
+  font-weight: bolder;
+}
+.h1{
+  color:#f2ff3f;
+}
+.img1{
+  border-radius: 30px;
+  box-shadow: 0px 20px 18px #6de3e3;
+}
+/* section1 */
+/* section2 */
+.container {
+  margin-top: 5%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-md-6 {
+  flex-basis: 45%;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.img3 {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#90fc5a;
+}
+ .p2{
+  color:#f2ff3f;
+ }
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex-basis: 100%;
+    margin: 10px;
+  }
+  .img3 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slideIn {
+  animation: slideIn 2s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* section2 */
+
+
+/* footer */
+.content{
+  gap:40px;
+  color:white;
+  padding:20px;
+
+  text-align:center;
+} 
+.row{
+    margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+.content h3 p{
+  color:#3498db;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+    margin-top: auto;
+  }
+
+/* 
+ */

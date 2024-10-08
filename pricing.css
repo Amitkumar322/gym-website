@@ -1,0 +1,205 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-brand{
+    font-size: 40px;
+    font-style:italic;
+    font-family:verdana;
+    }
+    @media screen and (max-width:576px){
+        .navbar-brand{
+            font-size: 20px;
+            font-style:italic;
+            font-family:verdana;
+            }
+    }
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url(imges/3dimg.avif) ;
+    }
+    /* nav */  
+    .navbar-brand{
+        flex:1;  
+        display:flex;
+        
+    }
+    #navbarScroll ul li a {
+        margin:20px;
+        justify-content: center;
+        
+    }
+    #navbarScroll ul li a:hover{
+        color: #fbc531 ;
+        transition:1s ease;
+        border-bottom:2px dashed #fbc531;
+      
+    }
+    /* nav */
+
+/* cards     */
+
+.card {
+    width: 18rem;
+    height: 24rem;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .gym-card .row{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:1200px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    border-radius: 15px;
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card:hover .card-body {
+    opacity: 1;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.1);
+  }
+  
+  
+/* cards     */
+
+/* .subscription-section */
+.subscription-section {
+  background-color: rgba(225,225,225,0.5);
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.subscription-section div{
+  margin-left: auto;
+  margin-right: auto;
+  max-width:1200px;
+}
+
+.subscription-section h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subscription-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.subscription-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscription-section input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.subscription-section button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscription-section .social-media {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+}
+
+.subscription-section .social-media a {
+  margin-right: 10px;
+}
+
+.subscription-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subscription-section li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+/* .subscription-section */
+
+/* responsiveness of cards */
+@media screen and (max-width:1030px) {
+.card{
+  width: 15rem;
+  height:90vh ;
+}
+}
+@media screen and (max-width:768px) {
+.gym-card .row .col-md-4{
+margin-left:30% ;
+}
+}
+
+/* responsiveness of cards */
+ 
+    /* footer */
+    .content{
+      gap:40px;
+      color:white;
+      padding:20px;
+  } 
+  
+  .content h3 p{
+      color:#3498db;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+    footer {
+        margin-top: auto;
+      }
+      
+    /* footer */

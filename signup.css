@@ -1,0 +1,74 @@
+.navbar-brand{
+    font-size: 40px;
+    font-style:italic;
+    font-family:verdana;
+    }
+    @media screen and (max-width:576px){
+        .navbar-brand{
+            font-size: 20px;
+            font-style:italic;
+            font-family:verdana;
+            }
+    }
+    /* nav */
+        
+    .navbar-brand{
+        flex:1;  
+        display:flex;
+        
+    }
+    #navbarScroll ul li a {
+        margin:20px;
+        justify-content: center;
+        
+    }
+    #navbarScroll ul li a:hover{
+        color: #fbc531 ;
+        transition:1s ease;
+        border-bottom:2px dashed #fbc531;
+      
+    }
+    /* header */
+    .card{
+        box-shadow:4px 4px 21px  white;
+    }
+    form{
+        margin-left: 18%;
+    }
+
+    h1{
+        color:#3498db;
+        text-align:center;
+        text-shadow:3px 3px 18px #3498db ;
+    }
+    label{
+        font-size:20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif verdana;
+    }
+    button{
+        margin-left:30%;
+    }
+    @media screen and (max-width:623px){
+        h1{
+            font-size:25px;
+        }
+        label{
+            font-size:15px;
+        }
+    }
+    /* header */
+   
+    
+
+        /* footer */
+        .content{
+            gap:40px;
+            color:white;
+            padding:20px;
+        } 
+        
+        .content h3 p{
+            color:#3498db;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        /* footer */
