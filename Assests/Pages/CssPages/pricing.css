@@ -4,20 +4,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .navbar-brand{
     font-size: 40px;
@@ -34,7 +20,7 @@ body {
     body{
         background-size: cover;
         background-repeat: no-repeat;
-        background-image:url(imges/3dimg.avif) ;
+        background-image:url(../imges/3dimg.avif) ;
     }
     /* nav */  
     .navbar-brand{
@@ -50,7 +36,6 @@ body {
     #navbarScroll ul li a:hover{
         color: #fbc531 ;
         transition:1s ease;
-        border-bottom:2px dashed #fbc531;
       
     }
     /* nav */
@@ -188,18 +173,78 @@ margin-left:30% ;
 /* responsiveness of cards */
  
     /* footer */
-    .content{
-      gap:40px;
-      color:white;
-      padding:20px;
-  } 
-  
-  .content h3 p{
-      color:#3498db;
-      font-family:Georgia, 'Times New Roman', Times, serif;
+   /* footer */
+footer {
+  background-color: #343a40;
+}
+
+.footer-container {
+  background-color: #343a40;
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #bbb;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff7f50;
+}
+
+.footer-bottom {
+  background-color: #2b3036;
+  color: #aaa;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .footer-container {
+    padding: 20px;
   }
-    footer {
-        margin-top: auto;
-      }
-      
+
+  .footer-heading {
+    font-size: 1.25rem;
+  }
+
+  .footer-description {
+    font-size: 0.9rem;
+  }
+
+  .footer-links li {
+    text-align: center;
+  }
+
+  .footer-links a {
+    font-size: 0.9rem;
+  }
+}
+ 
     /* footer */
